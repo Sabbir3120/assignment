@@ -1,0 +1,133 @@
+.azeret-mono-font {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* First page(banner part) */
+.banner-section-container{
+    max-width: 1920px;
+    height: 815px;
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.banner-section-image{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner-section-text{
+    text-align: center;
+    margin-top: 32px;
+}
+/* .banner-section-text */
+.heading1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.paragraph1{
+    margin-top: 35px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+/* .banner-section-text */
+
+/* button */
+.btn{
+    margin-top: 42px;
+    /* margin-bottom: 74px; */
+    justify-content: center;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+
+/* banner page done */
+
+/* Second page */
+.frame1{
+    max-width: 1620px;
+    /* height: 815px; */
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    border: 2px solid black;
+}
+
+.di1{
+ text-align: center;
+ justify-content: center;   
+}
+
+.he1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    margin: 24px 0px;
+}
+
+.paragraph2{
+    margin-top: 25px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+
+.grp1{
+    margin-top: 48px;
+    max-width: 1620px;
+    /* height: 815px; */
+    padding: 48px 48px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text{
+    max-width: 900px;
+    border: 2px solid black;
+}
+.img{
+    max-width: 624px;
+    border: 2px solid black;
+    text-align: right, top;
+}
