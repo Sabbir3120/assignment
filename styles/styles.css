@@ -81,7 +81,7 @@
     /* height: 815px; */
     margin: 0 auto;
     padding: 80px 97px 80px 97px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .di1{
@@ -116,7 +116,7 @@
     max-width: 1620px;
     /* height: 815px; */
     padding: 48px 48px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -124,11 +124,11 @@
 
 .text{
     max-width: 900px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .img{
     max-width: 624px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: right, top;
 }
 
@@ -174,7 +174,7 @@
     padding: 48px 48px;
     max-width: 1620px;
     /* height: 815px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -182,13 +182,13 @@
 
 .img5{
     max-width: 624px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: left; top;
 }
 
 .text5{
     max-width: 900px;
-    border: 2px solid black;  
+    /* border: 2px solid black;   */
 }
 
 .fd1{
@@ -225,4 +225,99 @@
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 
+}
+
+.frame3{
+    max-width: 1620px;
+    height: 540px;
+    top margin: 80px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    /* border: 2px solid black; */
+    background-image: url(../assets/handshake.jpg)
+}
+
+
+.dh7{
+    width: 730px;
+    height: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.h33{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.para33{
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#lastpart{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.boxsize{
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.btn2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    position: static;
+    width: 120px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.footerp{
+    width: 1920px;
+    margin: 79px 150px 79px 150px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.sociallink{
+    display: flex;
+    width: 200px;
+    justify-content:space-evenly;
 }
